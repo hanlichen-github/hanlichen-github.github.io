@@ -1,5 +1,6 @@
 # Choose An Italian Restaurant Location
 
+<a href="github.com">Home</a>
 I picked up a course on coursera, in which I learnt to use some interesting tools like how to plot markers on a map and how to do machine learning. Let me show you how to solve such a problem: Where to open an Italian restaurant.
 
 For a restaurant, location is very important. Since location will decide how many potential customers will be and what price they will pay.
