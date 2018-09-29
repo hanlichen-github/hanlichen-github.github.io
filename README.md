@@ -1,39 +1,15 @@
-## Welcome to GitHub Pages ghygfdg
+# Choose An Italian Restaurant Location
 
-# try this one
+I picked up a course on coursera, in which I learnt to use some interesting tools like how to plot markers on a map and how to do machine learning. Let me show you how to solve such a problem: Where to open an Italian restaurant.
 
-You can use the [editor on GitHub](https://github.com/hanlichen-github/hanlichen-github.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+For a restaurant, location is very important. Since location will decide how many potential customers will be and what price they will pay.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I used Foursquare data to find these two things. Foursquares is a very useful data source and free. You can apply an account as a developer on its website. 
 
-### Markdown
+In Foursquare Places API, we can Get Details of a Venue, in which includes price tiers and usersCount.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Here we try to find an ideal location with the following conditions: First, it clusters with other profitable Italian restaurants. Sometimes restaurants compete with each other. But if they form an Italian food area, people will first go to the area when they want to enjoy Italian food. Second, nearby Italian restaurants should be profitable, which means they should have good prices or large numbers of customers.
 
-```markdown
-Syntax highlighted code block
+With these conditions, we will classify the Italian restaurants by price and number of customers with machine learning methods. According to the results, I will locate them on the map and find out where is the most profitable place to open an Italian restaurant.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hanlichen-github/hanlichen-github.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The result may be useful for people to open their own Italian restaurant, or may lend some thoughts to other business location finding.
